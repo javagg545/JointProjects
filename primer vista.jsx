@@ -1,4 +1,14 @@
 import Link from "next/link"
+
+export default function Component() {
+    return (
+        <div>
+            <Link href="http://localhost:3000">
+                <a>Go to Website</a>
+            </Link>
+        </div>
+    );
+}
 import { CardContent, Card } from "@/components/ui/card"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { Label } from "@/components/ui/label"
