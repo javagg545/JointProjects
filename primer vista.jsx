@@ -1,6 +1,6 @@
 /**
  * v0 by Vercel.
- * @see http://localhost:2928
+ * 
  */
 import Link from "next/link"
 import { CardContent, Card } from "@/components/ui/card"
