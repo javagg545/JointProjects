@@ -1,0 +1,11 @@
+/*fondo y color de letra*/
+body{
+    background-color: burlywood;
+    color: black;
+}
+
+/*css para formato del logo de barra navigation*/
+.logo-img {
+    max-width: 100px; /* ajusta el valor según sea necesario */
+    height: auto; /* para mantener la proporción original de la imagen */
+}
