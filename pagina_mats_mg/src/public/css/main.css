@@ -1,6 +1,6 @@
 /*fondo y color de letra*/
 body{
-    background-color: orange;
+    background-color: #ffffff;
     color: black;
 }
 
@@ -8,4 +8,8 @@ body{
 .logo-img {
     max-width: 100px; /* ajusta el valor según sea necesario */
     height: auto; /* para mantener la proporción original de la imagen */
+}
+
+pad{
+    padding: 5em;
 }
