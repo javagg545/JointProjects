@@ -15,8 +15,8 @@
         <%- include('partials/navigation') %>
             <div id="app" class="flex flex-col min-h-screen">
                 <main class="flex-1">
-                    <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-200 dark:bg-gray-800">
-                        <div class="container px-4 md:px-6">
+                    <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-200 dark:bg-gray-800 mb-8">
+                        <div class="container px-4 xl:px-6">
                             <div class="flex flex-col justify-center space-y-4">
                                 <div class="space-y-2">
                                     <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
@@ -32,71 +32,91 @@
                         </div>
                     </section>
 
-                    <section id="services" class="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+                    <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-200 dark:bg-gray-800 mb-8">
                         <div class="container px-4 md:px-6">
+                            <div class="flex flex-col justify-center space-y-4">
+                                <div class="space-y-2">
+                                    <h3 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                                        <div class="container-xl">mision</div>
+                                    </h3>
+                                    <h3 class="ext-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                                        <div class="container-xl">vision</div>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="services" class="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+                        <div class="container  px-4 xl:px-6">
                             <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
                                 Nuestros servicios
                             </h2>
                             <div class="grid gap-6 lg:grid-cols-3 lg:gap-12 xl:grid-cols-3">
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                                    <div class="p-6 flex flex-col items-center space-y-4"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10">
-                                            <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
-                                            <path d="M9 22v-4h6v4"></path>
-                                            <path d="M8 6h.01"></path>
-                                            <path d="M16 6h.01"></path>
-                                            <path d="M12 6h.01"></path>
-                                            <path d="M12 10h.01"></path>
-                                            <path d="M12 14h.01"></path>
-                                            <path d="M16 10h.01"></path>
-                                            <path d="M16 14h.01"></path>
-                                            <path d="M8 10h.01"></path>
-                                            <path d="M8 14h.01"></path>
-                                        </svg>
-                                        <h3 class="text-xl font-bold">Construction</h3>
-                                        <p class="text-gray-500 dark:text-gray-400">
-                                            We offer construction services for residential and commercial buildings.
-                                        </p>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                                    <div class="p-6 flex flex-col items-center space-y-4"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10">
-                                            <path d="M20 22h-2"></path>
-                                            <path d="M20 15v2h-2"></path>
-                                            <path d="M4 19.5V15"></path>
-                                            <path d="M20 8v3"></path>
-                                            <path d="M18 2h2v2"></path>
-                                            <path d="M4 11V9"></path>
-                                            <path d="M12 2h2"></path>
-                                            <path d="M12 22h2"></path>
-                                            <path d="M12 17h2"></path>
-                                            <path d="M8 22H6.5a2.5 2.5 0 0 1 0-5H8"></path>
-                                            <path d="M4 5v-.5A2.5 2.5 0 0 1 6.5 2H8"></path>
-                                        </svg>
-                                        <h3 class="text-xl font-bold">Design &amp; Planning</h3>
-                                        <p class="text-gray-500 dark:text-gray-400">
-                                            Our team of architects and engineers can help design and plan your dream
-                                            project.
-                                        </p>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a short card.</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                                    <div class="p-6 flex flex-col items-center space-y-4"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10">
-                                            <path d="M21 7v6h-6"></path>
-                                            <path d="M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7"></path>
-                                        </svg>
-                                        <h3 class="text-xl font-bold">Renovation</h3>
-                                        <p class="text-gray-500 dark:text-gray-400">
-                                            We provide renovation services to give your old buildings a new life.
-                                        </p>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -109,66 +129,73 @@
                                 Materiales
                             </h2>
                             <div class="grid gap-6 lg:grid-cols-3 lg:gap-12 xl:grid-cols-3">
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                                    <div class="p-6 flex flex-col items-center space-y-4"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10">
-                                            <path
-                                                d="M10 10v.2A3 3 0 0 1 8.9 16v0H5v0h0a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z">
-                                            </path>
-                                            <path d="M7 16v6"></path>
-                                            <path d="M13 19v3"></path>
-                                            <path
-                                                d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5">
-                                            </path>
-                                        </svg>
-                                        <h3 class="text-xl font-bold">Wood</h3>
-                                        <p class="text-gray-500 dark:text-gray-400">
-                                            We provide high-quality wood for all your construction needs.
-                                        </p>
-                                    </div>
-                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm"
-                                        data-v0-t="card">
-                                        <div class="p-6 flex flex-col items-center space-y-4"><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10">
-                                                <path d="M18 12.5V10a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1.4"></path>
-                                                <path d="M14 11V9a2 2 0 1 0-4 0v2"></path>
-                                                <path d="M10 10.5V5a2 2 0 1 0-4 0v9"></path>
-                                                <path
-                                                    d="m7 15-1.76-1.76a2 2 0 0 0-2.83 2.82l3.6 3.6C7.5 21.14 9.2 22 12 22h2a8 8 0 0 0 8-8V7a2 2 0 1 0-4 0v5">
-                                                </path>
-                                            </svg>
-                                            <h3 class="text-xl font-bold">Steel</h3>
-                                            <p class="text-gray-500 dark:text-gray-400">
-                                                Our steel materials are strong and durable, perfect for any construction
-                                                project.
-                                            </p>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm"
-                                        data-v0-t="card">
-                                        <div class="p-6 flex flex-col items-center space-y-4"><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10">
-                                                <rect width="18" height="12" x="3" y="8" rx="1"></rect>
-                                                <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
-                                                <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path>
-                                            </svg>
-                                            <h3 class="text-xl font-bold">Bricks</h3>
-                                            <p class="text-gray-500 dark:text-gray-400">
-                                                Our bricks are made from high-quality clay, ensuring a strong and sturdy
-                                                construction.
-                                            </p>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a short card.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="..." class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as
+                                                    a natural lead-in to additional content. This content is a little
+                                                    bit longer.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-            </div>
             </div>
             </section>
 
@@ -178,36 +205,38 @@
                         Proyectos realizados
                     </h2>
                     <div class="grid gap-6 lg:grid-cols-3 lg:gap-12 xl:grid-cols-3">
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                            <div class="p-6 flex flex-col items-center space-y-4"><img src="/placeholder.svg" alt="Project 1"
-                                class="w-full h-64 object-cover" width="200" height="200"
-                                style="aspect-ratio: 200 / 200; object-fit: cover;">
-                              <h3 class="text-xl font-bold">Project 1</h3>
-                              <p class="text-gray-500 dark:text-gray-400">
-                                A modern residential building in the heart of the city.
-                              </p>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as
+                                            a natural lead-in to additional content. This content is a little
+                                            bit longer.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                            <div class="p-6 flex flex-col items-center space-y-4"><img src="/placeholder.svg" alt="Project 2"
-                                class="w-full h-64 object-cover" width="200" height="200"
-                                style="aspect-ratio: 200 / 200; object-fit: cover;">
-                              <h3 class="text-xl font-bold">Project 2</h3>
-                              <p class="text-gray-500 dark:text-gray-400">
-                                A commercial building with state-of-the-art facilities.
-                              </p>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a short card.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                            <div class="p-6 flex flex-col items-center space-y-4"><img src="/placeholder.svg" alt="Project 3"
-                                class="w-full h-64 object-cover" width="200" height="200"
-                                style="aspect-ratio: 200 / 200; object-fit: cover;">
-                              <h3 class="text-xl font-bold">Project 3</h3>
-                              <p class="text-gray-500 dark:text-gray-400">
-                                A renovated heritage building with a blend of old and new.
-                              </p>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as
+                                            a natural lead-in to additional content.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -217,29 +246,54 @@
                     <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
                         Referencias
                     </h2>
-                    <div class="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                            <div class="p-6 flex flex-col items-center space-y-4"><span
-                                class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"><span
-                                  class="flex h-full w-full items-center justify-center rounded-full bg-muted">JP</span></span>
-                              <h3 class="text-xl font-bold">John Doe</h3>
-                              <p class="text-gray-500 dark:text-gray-400">
-                                "BuildCo did an amazing job with our construction project. Their team was professional and the materials
-                                used were of high quality."
-                              </p>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-toggle="collapse" style="">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion body.</div>
                             </div>
-                          </div>
-                          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                            <div class="p-6 flex flex-col items-center space-y-4"><span
-                                class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"><span
-                                  class="flex h-full w-full items-center justify-center rounded-full bg-muted">MD</span></span>
-                              <h3 class="text-xl font-bold">Mary Davis</h3>
-                              <p class="text-gray-500 dark:text-gray-400">
-                                "I was impressed with the level of detail and planning that went into our project. The end result was
-                                fantastic!"
-                              </p>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                    accordion body. Let's imagine this being filled with some actual content.</div>
                             </div>
-                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                    accordion body. Nothing more exciting happening here in terms of content, but just
+                                    filling up the space to make it look, at least at first glance, a bit more
+                                    representative of how this would look in a real-world application.</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -251,23 +305,23 @@
                     </h2>
                     <form class="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
                         <div class="space-y-2"><label
-                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            for="name">Name</label><input
-                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                            id="name" required=""></div>
+                                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                for="name">Name</label><input
+                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                id="name" required=""></div>
                         <div class="space-y-2"><label
-                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            for="email">Email</label><input
-                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                            id="email" required="" type="email"></div>
+                                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                for="email">Email</label><input
+                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                id="email" required="" type="email"></div>
                         <div class="space-y-2"><label
-                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            for="message">Message</label><textarea
-                            class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                            id="message" required=""></textarea></div><button
-                          class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
-                          type="submit">Submit</button>
-                      </form>
+                                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                for="message">Message</label><textarea
+                                class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                id="message" required=""></textarea></div><button
+                            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
+                            type="submit">Submit</button>
+                    </form>
                     </form>
                 </div>
             </section>
