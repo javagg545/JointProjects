@@ -26,6 +26,15 @@ body {
   text-align: center; /* Centra el texto horizontalmente */
  /* max-width: 800px; /* Define un ancho máximo para el contenedor */
   margin: 0 auto; /* Centra el contenedor horizontalmente */
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+
+.textoytitulos {
+  text-align: center; /* Centra el texto horizontalmente */
+ /* max-width: 800px; /* Define un ancho máximo para el contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  margin-top: 1.8em;
 }
 
 .seccion-destacada {
