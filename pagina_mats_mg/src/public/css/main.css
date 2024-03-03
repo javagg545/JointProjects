@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(255, 255, 255);
-  color: black;
+  background-color: #D9BF41;
+  color: #000000;
 }
 
 .navbar {
-  background-color: #A68521;
-  color : black;
+  background-color: #D9BF41;
+  color : #000000;
 }
 
 .logo-img {
@@ -19,6 +19,16 @@ body {
   /*max-width: 800px; /* Define un ancho máximo para el contenedor */
   margin: 0 auto; /* Centra el contenedor horizontalmente */
   margin-bottom: 1.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.textoRAMIR{
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.1em;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .espaciadoCentrado {
@@ -34,6 +44,7 @@ body {
   margin: 0 auto; /* Centra el contenedor horizontalmente */
   margin-bottom: 1.5em;
   margin-top: 1.5em;
+  color: white;
 }
 
 .dividirSecciones {
@@ -61,10 +72,10 @@ body {
 }
 
 .seccion-destacada-contenido {
-  background-color: #D9BF41;
+  background-color: #000000;
   background-size: cover;
   background-position: center;
-  padding: 4rem;
+  padding: 1rem;
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -84,7 +95,7 @@ body {
 
 
 .card-title {
-  color: #000;
+  color: #ffffff;
   font-weight: bold;
   text-align: center;
   margin-bottom: 1em;
@@ -92,7 +103,7 @@ body {
 
 .card-text {
   font-size: 1rem;
-  color: #555;
+  color: #d2d2d2;
 }
 
 .seccion-destacada {
@@ -128,8 +139,14 @@ body {
 }
 
 .textosEspecificos{
-  color: #000;
+  color: #ffffff;
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.1em;
+}
+
+.bg-custom-image-title {
+  background-image: url('/img/BannerPrincipal.webp');
+  background-size: cover;
+  background-position: center;
 }
