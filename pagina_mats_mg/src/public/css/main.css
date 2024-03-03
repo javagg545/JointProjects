@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(173, 152, 123);
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 
 .navbar {
-  background-color: antiquewhite;
+  background-color: #A68521;
   color : black;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .seccion-destacada-titulos {
-  background-color: rgb(209, 214, 162);
+  background-color: #A68521;
   background-size: cover;
   background-position: center;
   padding: 4rem;
@@ -61,7 +61,7 @@ body {
 }
 
 .seccion-destacada-contenido {
-  background-color: rgb(102, 107, 46);
+  background-color: #D9BF41;
   background-size: cover;
   background-position: center;
   padding: 4rem;
@@ -84,8 +84,10 @@ body {
 
 
 .card-title {
-  font-size: 1.25rem;
+  color: #000;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .card-text {
@@ -111,4 +113,23 @@ body {
   padding: 4rem;
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+.transparent-grid {
+  background-color: transparent; /* Establece el color de fondo transparente */
+  border: 1px solid #000; /* Añade un borde de 1px sólido */
+  border-radius: 8px; /* Opcional: Agrega bordes redondeados */
+  overflow: hidden; /* Evita que el contenido sobresalga del contenedor */
+}
+
+/* Opcional: Estilos para los elementos de la lista */
+.transparent-grid .list-group-item {
+  padding: 10px; /* Ajusta el relleno de los elementos de la lista según sea necesario */
+}
+
+.textosEspecificos{
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.1em;
 }
